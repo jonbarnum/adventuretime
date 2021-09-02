@@ -1,10 +1,16 @@
 let colors = ['green', 'red', 'purple', 'blue', 'yellow', 'orange'];
 
+let count = 0
+let container = document.getElementById('container');
+
 let button = document.getElementById('button');
 
 button.addEventListener('click', function(){
-    var randomColor = colors[Math.floor(Math.random() * colors.length)]
-
-let container = document.getElementById('container');
-
-container.style.background = randomColors;
+    if (count < 6){
+        let randomColor = colors[count];
+        container.style.background = randomColor;
+        count = count + 1;  
+    } else {
+        count = 0
+    }
+});
