@@ -33,3 +33,14 @@ img {
     border: 1px solid rebeccapurple;
     border-radius: 15px;
 }
+
+h2 {
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D802EB;
+}
