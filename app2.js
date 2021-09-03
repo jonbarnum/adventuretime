@@ -1,40 +1,21 @@
-// function userAnswer(){
-//     let userAnswer = prompt('Do You Want To Go On An Adventure?');
+// function guessingGame (correctAnswer)
+// let numberOfAttempts = 8;
+//     for (let i = 1, i < numberOfAttempts, i++); {
+//         userRespnse = prompt ("Guess a Number Between 1 to 50")
 
-// console.log(userAnswer)
+//         while (userRespnse < i ) || (userRespnse > 50)
 
-// if (userAnswer.toLowerCase() == 'yes'){
-//     let url = "https://24.media.tumblr.com/tumblr_m8izndR4kl1rq20pxo1_500.gif"
-//     document.write(`<img src="${url}">`)
+//         userRespnse = prompt "Guess a number between 1 to 50";
+
+//     if (userRespnse == correctAnswer){
+//         alert (Mathimatical!!!, You Got it Right!!!);
+//         break
+//     } else if (userRespnse < correctAnswer{
+//         alert ("Supper bummer!, too low" + (numberOfAttemps -i ) + " attempts left"){
+//             else if (userRespnse > correctAnswer){
+//                 alert ("Oh No!!! too high" + (numberOfAttempts - i) + "  attempts left" );
+//             }
+//         }
 //     }
-// };
 
-// userAnswer();
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function userAnswer(){
-//     let userAnswer = prompt('Do You Want To Go On An Adventure?');
-
-// console.log(userAnswer)
-
-// if (userAnswer.toLowerCase() == 'yes'){
-//     let url = "https://24.media.tumblr.com/tumblr_m8izndR4kl1rq20pxo1_500.gif"
-//     document.write(`<img src="${url}">`)
-// } else {
-//     let url = "https://i.pinimg.com/originals/5b/7b/30/5b7b304bea8a6c105fc80a36d8025cd4.gif"
-//     document.write(`<img src="${url}">`)
 // }
-// };
-
-// userAnswer();
